@@ -1,8 +1,8 @@
 // Домашняя работа 1
 
-var isUserLogged : Bool = false
-var isDataLoaded : Bool = false
-var isConnected : Bool = false
+var isUserLogged = false
+var isDataLoaded = false
+var isConnected = false
 
 
 if isDataLoaded && isConnected{
