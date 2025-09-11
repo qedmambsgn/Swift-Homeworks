@@ -15,7 +15,7 @@ for i in 1...100 {
     }
 }
 
-var result : Int = 0
+var result = 0
 
 for i in 1...100 {
     if i % 2 == 0 {
