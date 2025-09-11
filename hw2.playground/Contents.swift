@@ -1,8 +1,8 @@
 // Домашняя работа 2
 
-var isUserLogged : Bool = false
-var isDataLoaded : Bool = true
-var isConnected : Bool = true
+var isUserLogged = false
+var isDataLoaded = true
+var isConnected = true
 
 let actionMessage : String = (isDataLoaded && isConnected) ? (isUserLogged ? "Показать профиль пользователя" : "Показать форму регистрации") : ((!isConnected || !isDataLoaded) ? "Что-то пошло не так" : "Показать скелет экрана")
 
